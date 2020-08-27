@@ -1,0 +1,87 @@
+.reg{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-image:url("bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.req{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background-image:url("bg3.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+.box{
+
+	top:50%;
+	left:80%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0px 15px 25px rgba(0,0,0,.5);
+	border-radius: 5px;
+}
+.box h2{
+	margin: 0px 0px 30px;
+	padding: 0px;
+	color: #fff;
+	text-align: center;
+}
+.box .input-group{
+	position: relative;
+}
+.box .input-group input{
+	width: 100%;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #fff;
+	line-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid white;
+}
+.box .input-group label{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-spacing: 1px;
+	padding: 10px 0px;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .input-group input:focus ~ label,
+.box .input-group input:valid ~ label{
+	top: -20px;
+	left: 0px;
+	color: #03a9f4;
+	font-size: 12px;
+}
+.box input[type="submit"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.box button[type="submit"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
